@@ -1,0 +1,34 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card-body{
+    width: 30rem;
+    height: 40rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    /* justify-content: center; */
+    border: 10px solid black;
+    border-radius: 50px;
+}
+
+.image-section{
+    padding:2rem;
+}
+.image-section img{
+    height: 25rem;
+    width: 25rem;
+    border-radius: 50px;
+}
+.detail-section{
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+.detail-section ul{
+    list-style: none;
+ }
